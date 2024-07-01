@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Power",
+        "price": 18.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/61J3Uu4jOLL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "1984",
+        "price": 15.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71kxa1-0mfL.jpg"
+    },
+    {
+        "id": 3,
+        "name": "The Great Gatsby",
+        "price": 12.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/81QuEGw8VPL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "name": "The Catcher in the Rye",
+        "price": 14.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Moby-Dick",
+        "price": 19.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/61PBBKyZ1rL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Pride and Prejudice",
+        "price": 10.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg"
+    },
+    {
+        "id": 7,
+        "name": "War and Peace",
+        "price": 25.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/71wXZB-VtBL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 8,
+        "name": "The Hobbit",
+        "price": 16.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Crime and Punishment",
+        "price": 17.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/612KmKeEYEL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Jane Eyre",
+        "price": 11.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81OthjkJBuL.jpg"
+    },
+    {
+        "id": 11,
+        "name": "The Odyssey",
+        "price": 13.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/81kLSHHjn-L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Brave New World",
+        "price": 14.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/91D4YvdC0dL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Wuthering Heights",
+        "price": 9.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/51UBcTq-CGL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 14,
+        "name": "The Divine Comedy",
+        "price": 21.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/91vybHeMSxL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 15,
+        "name": "The Brothers Karamazov",
+        "price": 23.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/71OZJsgZzQL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Anna Karenina",
+        "price": 20.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71UypkUjStL.jpg"
+    },
+    {
+        "id": 17,
+        "name": "One Hundred Years of Solitude",
+        "price": 18.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/81oAEEwxBWL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 18,
+        "name": "The Count of Monte Cristo",
+        "price": 22.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/51W5xvphHlL.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Game of thrones",
+        "price": 24.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91dSMhdIzTL.jpg"
+    },
+    {
+        "id": 20,
+        "name": "The Picture of Dorian Gray",
+        "price": 13.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/71fm0Ap7JcL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Fahrenheit 451",
+        "price": 15.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Don Quixote",
+        "price": 19.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/71GBg+Ah1cL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 23,
+        "name": "The Hobbit",
+        "price": 29.99,
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL.jpg"
+    },
+    {
+        "id": 24,
+        "name": "The Alchemist",
+        "price": 16.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/61HAE8zahLL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 25,
+        "name": "The Kite Runner",
+        "price": 14.99,
+        "imageUrl": "https://m.media-amazon.com/images/I/81IzbD2IiIL._AC_UF1000,1000_QL80_.jpg"
+    }
+]

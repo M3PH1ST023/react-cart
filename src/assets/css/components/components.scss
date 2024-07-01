@@ -1,0 +1,33 @@
+@import "../global";
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: $color3;
+    color: $color1;
+    font-size: 20px;
+    .links {
+        gap: 20px;
+    }
+    .link {
+        color: $color1;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            scale: 1.1;
+        }
+    }
+    .cart {
+        cursor: pointer;
+        sup {
+            font-size: 15px;
+            border-radius: 100%;
+            padding: 1px 2px;
+            background-color: red;
+            color: $color1;
+        }
+    }
+}

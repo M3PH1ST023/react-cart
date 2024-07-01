@@ -1,0 +1,40 @@
+@import "../global";
+
+.auth-container {
+    height: 100%;
+    width: 100%;
+    .auth-form {
+        color: $color1;
+        padding: 20px 40px;
+        border-radius: 15px;
+        font-size: 20px;
+        background: $color2;
+        gap: 20px;
+        .inp {
+            width: 100%;
+            gap: 10px;
+            input {
+                width: 250px;
+                border-radius: 10px;
+                padding: 5px;
+                font-size: 17.5px;
+                background: transparent;
+                border: 2px solid $color3;
+                color: $color1;
+                padding-left: 5px;
+            }
+        }
+        .redirect-link {
+            width: 100%;
+            .link {
+                color: $color3;
+                &:hover {
+                    color: $color1;
+                }
+            }
+        }
+        button {
+            @include button-style(15px, 30px, $color3, $color1);
+        }
+    }
+}
