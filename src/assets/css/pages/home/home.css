@@ -51,9 +51,6 @@ html::-webkit-scrollbar {
   width: 100%;
   align-items: center;
 }
-.pages-container h2 {
-  margin-left: 20px;
-}
 .pages-container .items {
   width: 90%;
   flex-wrap: wrap;

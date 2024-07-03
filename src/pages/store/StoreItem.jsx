@@ -1,5 +1,13 @@
+import { useCart } from "../../context/CartContext";
+
 const StoreItem = ({ id, name, price, imageUrl }) => {
-    const quantity = 0;
+    const {
+        getItemQuantity,
+        increaseCartQuantity,
+        decreaseCartQuantity,
+        removeFromCart,
+    } = useCart();
+    const quantity = getItemQuantity(id);
     return (
         <>
             <img src={imageUrl} />
@@ -9,9 +17,19 @@ const StoreItem = ({ id, name, price, imageUrl }) => {
                     <div className="item-price">{price}</div>
                 </div>
                 {quantity == 0 ? (
-                    <div className="add-to-cart flex f-center">+</div>
+                    <div
+                        className="add-to-cart flex f-center"
+                        onClick={() => increaseCartQuantity(id)}
+                    >
+                        +
+                    </div>
                 ) : (
-                    <div className="remove flex f-center">-</div>
+                    <div
+                        className="remove flex f-center"
+                        onClick={() => removeFromCart(id)}
+                    >
+                        -
+                    </div>
                 )}
             </div>
         </>

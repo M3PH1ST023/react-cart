@@ -9,8 +9,17 @@ const Login = () => {
 
     const validate = (e) => {
         e.preventDefault();
-        // validation code
-        handleSubmit();
+
+        let flag = 0;
+        if (username.length < 8) {
+            toast.error("Username must be 8 characters !");
+            flag = 1;
+        }
+        if (password.length < 8) {
+            toast.error("Password must be 8 characters !");
+            flag = 1;
+        }
+        flag ? "" : handleSubmit();
     };
 
     const handleSubmit = () => {

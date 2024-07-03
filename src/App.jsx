@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Error404 from "./pages/Error404";
 import Store from "./pages/store/Store";
 import About from "./pages/About";
-import CartProvider from "./context/CartContext";
+import { CartProvider } from "./context/CartContext";
 
 const App = () => {
     return (
