@@ -57,4 +57,54 @@
             }
         }
     }
+    // HOME
+    .home-bg {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+    }
+    .heading {
+        font-size: 50px;
+        font-weight: bolder;
+        z-index: 1;
+        animation: 1s ease fromTop;
+    }
+    .content {
+        font-size: 30px;
+        font-weight: bold;
+        animation: 1s ease fromDown;
+        width: 80%;
+        z-index: 1;
+        text-align: center;
+    }
+    .explore {
+        text-shadow: 1px 1px 2px $color1;
+        font-weight: bold;
+        font-size: 25px;
+        z-index: 1;
+        animation: 1.5s ease fromDown;
+    }
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        top: 0%;
+    }
+}
+
+@keyframes fromDown {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        top: 0%;
+    }
 }
