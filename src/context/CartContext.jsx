@@ -1,16 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import Cart from "../components/Cart";
 
-const CartContext = createContext({
-    openCart: () => "",
-    closeCart: () => "",
-    cartQuantity: 0,
-    cartItem: [],
-    getItemQuantity: (id) => id,
-    increaseCartQuantity: (id) => id,
-    decreaseCartQuantity: (id) => id,
-    removeFromCart: (id) => id,
-});
+const CartContext = createContext();
 
 export const useCart = () => {
     return useContext(CartContext);
@@ -38,7 +29,6 @@ export const CartProvider = ({ children }) => {
                 });
             }
         });
-        console.log(cartItem);
     }
 
     function decreaseCartQuantity(id) {
